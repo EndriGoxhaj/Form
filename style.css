@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: Anton;
+    src: url(Anton-Regular.ttf);
+}
+@font-face {
+    font-family: power;
+    src: url(PlayfairDisplaySC-Black.ttf);
+}
+.wrapper{
+    display: flex;
+}
+.left{
+    background-image: url("./strong.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 710px;
+    width: 600px;
+}
+.title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 75px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Anton;
+}
+.right{
+    width: 100%;
+
+}
+.description{
+    width: 100%;
+}
+.comment{
+    font-family: Anton;
+    padding-left: 50px;
+    padding-right: 200px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 120px;
+
+}
+.form{
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;;
+}
+.Apply{
+    font-family: Anton;
+    color: rgb(20, 44, 23);
+}
+.formone, .formtwo, .formthree{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+#nameinput, #mailinput, #passwordinput, #lastinput, #phoneinput, #confirminput{
+    display: flex;
+    flex-direction: column;
+    font-family: Anton;
+}
+
+.signup{
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.buttonsign{
+    background-color: rgb(20, 44, 23);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+
+}
