@@ -3,17 +3,17 @@ body{
 }
 @font-face {
     font-family: Anton;
-    src: url(Anton-Regular.ttf);
+    src: url(./Fonts/Anton-Regular.ttf);
 }
 @font-face {
     font-family: power;
-    src: url(PlayfairDisplaySC-Black.ttf);
+    src: url(./Fonts/PlayfairDisplaySC-Black.ttf);
 }
 .wrapper{
     display: flex;
 }
 .left{
-    background-image: url("./strong.jpg");
+    background-image: url("./images/strong.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 710px;
