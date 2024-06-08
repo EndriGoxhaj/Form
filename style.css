@@ -1,4 +1,5 @@
 body{
+    height: 100vh;
     margin: 0;
 }
 @font-face {
@@ -16,7 +17,7 @@ body{
     background-image: url("./images/strong.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 710px;
+    height: 100vh;
     width: 600px;
 }
 .title{
